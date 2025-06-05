@@ -1,13 +1,10 @@
-import Link from "next/link";
-import Layout from "../components/Layout";
-
-const IndexPage = () => (
-  <Layout title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
-    <p>
-      <Link href="/about">About</Link>
-    </p>
-  </Layout>
-);
-
-export default IndexPage;
+export default function Home() {
+  return (
+    <main style={{ display: 'flex', minHeight: '100vh', alignItems: 'center', justifyContent: 'center', flexDirection: 'column', background: '#f4f6f8' }}>
+      <h1 style={{ color: '#0070f3', fontSize: '2.2rem' }}>Welcome to Skill Trade Connect</h1>
+      <p style={{ fontSize: '1.2rem', maxWidth: 420, textAlign: 'center' }}>
+        The new home for tradespeople to share skills, jobs, and connect with others in the industry.
+      </p>
+    </main>
+  );
+}
