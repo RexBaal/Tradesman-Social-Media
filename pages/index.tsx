@@ -17,7 +17,7 @@ export default function HomePage() {
           height={60}
           style={{ borderRadius: "50%" }}
         />
-        <h1 className={styles.title}>SkillTradeConnect</h1>
+        <h1 className={styles.title}>Skill Trade Connect</h1>
       </div>
       <h2 className={styles.tagline}>The Social Network for Skilled Trades</h2>
       <p className={styles.description}>
