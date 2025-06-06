@@ -6,18 +6,26 @@ import styles from "../styles/HomePage.module.css";
 export default function HomePage() {
   const router = useRouter();
 
+  // Consider adding small project galleries or quick videos to showcase
+  // successful builds from community members.
   return (
     <main className={styles.main}>
       {/* Logo area */}
       <div className={styles.logo}>
         <Image
-          src="/tradesman.jpg"
+
+          src="/images/tradesman.jpg"
+
           alt="Tradesmen working"
           width={60}
           height={60}
           style={{ borderRadius: "50%" }}
         />
+
+     
+
         <h1 className={styles.title}>Skill Trade Connect</h1>
+
       </div>
       <h2 className={styles.tagline}>The Social Network for Skilled Trades</h2>
       <p className={styles.description}>
@@ -26,6 +34,7 @@ export default function HomePage() {
         skilled hands.
       </p>
       <div className={styles.icons}>🔧 ⚒️ 🧰</div>
+
       <button className={styles.button} onClick={() => router.push("/sign-in")}> 
         Enter
       </button>
