@@ -13,13 +13,19 @@ export default function HomePage() {
       {/* Logo area */}
       <div className={styles.logo}>
         <Image
+
           src="/images/tradesman.jpg"
+
           alt="Tradesmen working"
           width={60}
           height={60}
           style={{ borderRadius: "50%" }}
         />
-        <h1 className={styles.title}>SkillTradeConnect</h1>
+
+     
+
+        <h1 className={styles.title}>Skill Trade Connect</h1>
+
       </div>
       <h2 className={styles.tagline}>The Social Network for Skilled Trades</h2>
       <p className={styles.description}>
@@ -28,7 +34,7 @@ export default function HomePage() {
         skilled hands.
       </p>
       <div className={styles.icons}>🔧 ⚒️ 🧰</div>
-      {/* Swap these emojis for custom icons showing popular tools */}
+
       <button className={styles.button} onClick={() => router.push("/sign-in")}> 
         Enter
       </button>
